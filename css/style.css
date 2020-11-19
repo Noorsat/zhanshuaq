@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+a:hover{
+    color:#000;
+    text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+body{
+    background:#FED27D;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.header{
+    padding: 12px 0;
+    border-bottom:1px solid black;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__nav ul{
+    display: flex;
+}
+.header__logo img{
+    width:70px; 
+    margin-right: 8px;
+}
+.header__logo-text p{
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 26px;
+}
+.header__nav li{
+    margin-right: 26px;
+}
+.header__nav a{
+    font-weight:600;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.header__nav a:hover{
+    border-bottom: 2px solid #000;
+}
+/*MAIN*/
+.main{
+    background:url(./../images/bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    border-bottom:1px solid #000;
+}
+.main__content{
+    text-align: center;
+    border:3px solid #7D0F0F;
+    border-radius:20px;
+    padding:10px 0;
+    margin-top: 25px;
+}
+.main__content-title p{
+    font-size: 30px;
+    font-weight: 700;
+    color:#7D0F0F;
+}
+.main__content-text p{
+    font-size:20px;
+}
+.main__content-text{
+    margin:0 auto;
+    margin-top: 35px;
+    max-width:800px;
+}
+.main__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.w-100{
+    width: 500px!important;
+    height: 350px;
+}
+.main__wrapper-right{
+    text-align: center;
+    margin-right:45px;
+    max-width:500px;
+    font-size: 22px;
+    color:#3D1111;
+}
+.carousel-control-next{
+    display: none;
+}
+.carousel-control-prev{
+    display: none;
+}
+/*FOOTER*/
+.footer{
+    padding-bottom:20px;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__socials{
+    display: flex;
+}
+.line{
+    content:'';
+    display: block;
+    background:#000;
+    width: 150px;
+    margin-top: 120px;
+    height: 1px;
+    transform: rotate(90deg);
+}
+.line2{
+    content:'';
+    display: block;
+    background:#000;
+    width: 150px;
+    margin-top: 75px;
+    height: 1px;
+    transform: rotate(90deg);
+}
+.footer__socials-item{
+    display: flex;
+    align-items: center;
+}
+.footer__socials-block{
+    margin-right:30px;
+}
+.footer__logo-img{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer__logo-img img{
+    width:150px;
+}
+.footer__logo-text{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+}
+.footer__socials{
+    margin-top: 45px;
+}
+.footer__socials-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer__socials img{
+    width:50px;
+    margin-right:10px;
+}
+.footer__socials-item{
+    margin-bottom: 15px;
+}
+.footer__socials-item-text{
+    font-family:'Roboto',sans-serif;
+    font-weight: 500;
+}
+.footer__socials-item-text p{
+    margin-bottom: 5px;
+}
+.info__title{
+    margin-bottom:30px;
+}
+.footer__info-text{
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#text{
+    width:350px;
+    position: absolute;
+    right:0;
+    bottom:150px;
+}
